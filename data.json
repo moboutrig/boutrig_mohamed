@@ -1,0 +1,151 @@
+{
+  "persona": {
+    "name": "Mohamed Boutrig",
+    "title": "AI Agent Architect & Autonomous Systems Specialist",
+    "subtitle": "AI Agent Architect, Autonomous Systems Specialist, and Full Stack Developer. 🚀",
+    "headerQuote": "'One-Person One-Billion Dollar Company'",
+    "aboutText": "With a background in both software engineering and machine learning, I specialize in designing and deploying enterprise-grade AI agents that solve complex industry problems. My passion is moving beyond theoretical research to build tangible, high-impact autonomous systems, focusing on security, scalability, and delivering measurable business value."
+  },
+  "urls": {
+    "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJGt5u0sJE3v4dxMhu9VmwzKgVviAVBig5yAHFaka6iAk6wsUo=s432-c-no",
+    "resume": "./assets/MohamedBoutrig_Resume.pdf",
+    "email": "mailto:mohamedboutrig87@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mohamed-boutrig",
+    "github": "https://github.com/moboutrig",
+    "formspree": "https://formspree.io/f/your_form_id"
+  },
+  "sectionTitles": {
+    "about": "About Me 👨‍💻",
+    "projects": "Industry-Defining Agentic Systems 🛠️",
+    "skills": "Core Architectural Competencies 💡",
+    "masterclasses": "Masterclasses & Resources 🎓",
+    "testimonials": "What My Colleagues Say 💬",
+    "community": "Community & Thought Leadership 🌍",
+    "clients": "Trusted By ✅",
+    "contact": "Let's Build Together 📬"
+  },
+  "projects": [
+    {
+      "title": "Enterprise Support & Operations Agent Fleet",
+      "industry": "Education, Hospitality, & Healthcare 🏥",
+      "visuals": [
+        { "url": "./img/support-bg-1.jpg" },
+        { "url": "./img/support-bg-2.jpg" }
+      ],
+      "description": "Developed a versatile fleet of conversational agents for 24/7 support, securely integrating with core business systems (SIS, PMS, EHR) to provide instant, personalized assistance across various sectors.",
+      "useCases": {
+        "title": "Cross-Industry Use Cases",
+        "items": [
+          "<b>For Hotels:</b> Automated check-in/out, concierge requests (e.g., booking tours, dinner reservations), and instant room service ordering.",
+          "<b>For Schools:</b> Streamlined student admissions process, 24/7 access to course information and campus maps, and handling IT support requests.",
+          "<b>For Hospitals:</b> Intelligent appointment scheduling, patient pre-registration and document submission, and answering FAQs about procedures and billing."
+        ]
+      },
+      "keyResults": [
+        "Increased guest/patient satisfaction by 40%",
+        "Reduced administrative workload by 60%",
+        "Achieved 25% faster patient/student onboarding"
+      ],
+      "techStack": [
+        { "name": "Dialogflow", "icon": "dialogflow" },
+        { "name": "Secure API Integration", "icon": "apiIntegration" },
+        { "name": "Multilingual LLMs", "icon": "multilingualLlms" },
+        { "name": "Vertex AI", "icon": "vertexAi" }
+      ],
+      "demoUrl": "#",
+      "sourceUrl": "#",
+      "caseStudyUrl": "#",
+      "agentDetails": [
+        { "icon": "apiIntegration", "title": "Secure Integration Agent", "description": "The foundational layer for secure data exchange with backend systems.", "responsibilities": ["Manages OAuth 2.0 and API key rotation", "Performs PII redaction on all incoming/outgoing data", "Provides a sandboxed environment for tool execution"] },
+        { "icon": "humanInLoop", "title": "Hospitality Concierge Agent", "description": "Automates and enhances the guest experience for hotels and resorts.", "responsibilities": ["Handles room service orders via chat/voice", "Integrates with PMS for automated check-in/out", "Answers FAQs about amenities and local attractions"] },
+        { "icon": "googleTpu", "title": "Campus Operations Agent", "description": "Streamlines key processes for students and educational administrators.", "responsibilities": ["Guides students through the admissions workflow", "Provides 24/7 access to course info via RAG", "Creates and tracks IT support tickets automatically"] },
+        { "icon": "dataPrivacyRedaction", "title": "Patient Services Agent", "description": "Improves healthcare efficiency while ensuring patient data privacy.", "responsibilities": ["Automates appointment scheduling and reminders", "Integrates with EHRs for pre-registration (HIPAA-compliant)", "Answers common questions about billing and insurance"] }
+      ]
+    },
+    {
+      "title": "Harmonized Multi-Agent Trading Symphony",
+      "industry": "Financial Technology & Asset Management 💹",
+      "visuals": [
+        { "url": "./img/trading-bg-1.jpg" },
+        { "url": "./img/trading-bg-2.jpg" },
+        { "url": "./img/trading-bg-3.jpg" }
+      ],
+      "description": "Architected a decentralized trading system where specialized AI agents collaborate to turn market chaos into profitable strategies. Each agent has a distinct role, from data ingestion to risk management, all governed by a central intelligence.",
+      "useCases": {
+        "title": "Specialized Trading Agents",
+        "items": [
+          "<b>Market Data Agent:</b> Ingests and processes real-time market feeds.",
+          "<b>Technical Analysis Agent:</b> Identifies trading patterns and signals.",
+          "<b>Sentiment Analysis Agent:</b> Gauges market mood from news and social media.",
+          "<b>Portfolio Manager Agent:</b> Governs overall strategy and execution.",
+          "<b>Risk Manager Agent:</b> Monitors portfolio exposure and enforces safety protocols."
+        ]
+      },
+      "keyResults": [
+        "Improved Sharpe ratio by 25%",
+        "Analyzed 10x more assets simultaneously",
+        "Reduced manual analysis time by 80%"
+      ],
+      "techStack": [
+        { "name": "CrewAI", "icon": "crewAi" },
+        { "name": "Market Data Agent", "icon": "marketData" },
+        { "name": "Portfolio Manager", "icon": "plannerExecutor" },
+        { "name": "Risk Manager", "icon": "biasToxicityGuardrails" }
+      ],
+      "demoUrl": "#",
+      "sourceUrl": "#",
+      "caseStudyUrl": "#",
+      "agentDetails": [
+        { "icon": "marketData", "title": "Market Data Agent", "description": "The system's eyes on the market, ingesting high-velocity data streams.", "responsibilities": ["Connects to real-time WebSocket/FIX APIs", "Normalizes price and volume data", "Provides clean data on-demand to other agents"] },
+        { "icon": "reactArch", "title": "Technical Analysis Agent", "description": "The chartist, identifying potential trading signals from price action.", "responsibilities": ["Calculates dozens of indicators (RSI, MACD, etc.)", "Detects candlestick and chart patterns", "Flags potential entry and exit points"] },
+        { "icon": "multilingualLlms", "title": "Sentiment Analysis Agent", "description": "The psychologist, gauging market mood from unstructured text.", "responsibilities": ["Scrapes financial news and social media", "Performs NLP sentiment scoring on headlines", "Quantifies a real-time 'Fear & Greed' index"] },
+        { "icon": "plannerExecutor", "title": "Portfolio Manager Agent", "description": "The strategic brain, making high-level allocation decisions.", "responsibilities": ["Synthesizes inputs from all data agents", "Determines overall market posture (e.g., risk-on/off)", "Delegates execution tasks to other agents"] },
+        { "icon": "biasToxicityGuardrails", "title": "Risk Manager Agent", "description": "The system's ultimate safety net, preventing catastrophic failure.", "responsibilities": ["Monitors portfolio Value at Risk (VaR) in real-time", "Enforces stop-loss and take-profit rules", "Halts all trading during extreme volatility events"] }
+      ]
+    }
+  ],
+  "skills": [
+    { "category": "Agentic Architectures 🤖", "items": [ { "name": "ReAct (Reason + Act)", "icon": "reactArch" }, { "name": "Tree-of-Thought (ToT)", "icon": "treeOfThought" }, { "name": "Planner-Executor", "icon": "plannerExecutor" }, { "name": "DAG Agents", "icon": "dagAgents" }, { "name": "Multi-Agent Collaboration", "icon": "crewAi" } ] },
+    { "category": "Advanced Memory & Context 🧠", "items": [ { "name": "Episodic vs. Semantic Memory", "icon": "episodicSemanticMemory" }, { "name": "Vector DBs", "icon": "vectorDb" }, { "name": "Context Compression", "icon": "contextWindowCompression" }, { "name": "Forgetting Strategies", "icon": "forgettingAging" } ] },
+    { "category": "Evaluation & Observability 📊", "items": [ { "name": "LLM-as-Judge", "icon": "llmAsJudge" }, { "name": "Unit & Integration Testing", "icon": "unitIntegrationTesting" }, { "name": "LangSmith, Helicone, LangFuse", "icon": "langSmith" }, { "name": "DeepEval & Ragas", "icon": "deepEval" } ] },
+    { "category": "Security & Governance 🛡️", "items": [ { "name": "Prompt Injection Defense", "icon": "promptInjectionDefense" }, { "name": "Secure Tool Sandboxing", "icon": "toolSandboxing" }, { "name": "PII Redaction", "icon": "dataPrivacyRedaction" }, { "name": "Bias & Toxicity Guardrails", "icon": "biasToxicityGuardrails" } ] },
+    { "category": "LLM & Tool Integration 🔌", "items": [ { "name": "Native Function Calling", "icon": "nativeFunctionCalling" }, { "name": "Custom Tool Definition", "icon": "customToolDefinition" }, { "name": "Error & Rate-Limit Handling", "icon": "errorRateHandling" }, { "name": "Open & Closed Models", "icon": "openClosedModel" } ] },
+    { "category": "Enterprise Cloud & Data ☁️", "items": [ { "name": "Vertex AI Platform", "icon": "vertexAi" }, { "name": "Google Cloud TPUs", "icon": "googleTpu" }, { "name": "BigQuery Grounding", "icon": "bigQuery" }, { "name": "Google Distributed Cloud", "icon": "googleDistributedCloud" } ] }
+  ],
+  "masterclasses": {
+    "courses": [
+      { "title": "No-Code AI Agent Development", "author": "By Mohamed Boutrig Team", "description": "Build powerful AI agents with drag-and-drop interfaces. Perfect for entrepreneurs.", "icon": "noCode", "thumbnailUrl": "./img/course-nocode.jpg" },
+      { "title": "Low-Code Agentic Workflows", "author": "By Mohamed Boutrig Team", "description": "Combine visual tools with scripting to create sophisticated AI solutions.", "icon": "lowCode", "thumbnailUrl": "./img/course-lowcode.jpg" },
+      { "title": "Python for AI Agent Architects", "author": "By Mohamed Boutrig Team", "description": "A deep dive into building custom agents with Python, LangChain, and CrewAI.", "icon": "python", "thumbnailUrl": "./img/course-python.jpg" }
+    ],
+    "book": {
+      "title": "Designing Agentic Systems",
+      "author": "by Mohamed Boutrig",
+      "description": "The definitive guide for any engineer looking to build, evaluate, and scale AI agent applications.",
+      "coverUrl": "./img/book-cover.jpg"
+    }
+  },
+  "socialProof": {
+    "testimonials": [
+      { "quote": "Jane's ability to architect scalable and secure AI systems is second to none. She transformed our approach to automated trading, delivering results that exceeded all expectations.", "author": "Johnathan Smith", "title": "CTO, FinTech Innovations" },
+      { "quote": "Working with Jane was a masterclass in AI implementation. Her designs for our enterprise support fleet were not just technologically brilliant but also deeply aligned with our business needs.", "author": "Maria Garcia", "title": "Head of Operations, Global Hospitality Group" }
+    ],
+    "clients": [
+      { "name": "Google", "logo": "clientGoogle" },
+      { "name": "Amazon", "logo": "clientAmazon" },
+      { "name": "Microsoft", "logo": "clientMicrosoft" }
+    ]
+  },
+  "community": {
+    "openSource": { "title": "Open Source Contributions 👨‍💻", "items": [ { "text": "LangChain Agent Executor", "url": "#", "icon": "langchain" }, { "text": "CrewAI Tool Sandboxing", "url": "#", "icon": "crewAi" }, { "text": "LlamaIndex RAG Evaluation", "url": "#", "icon": "llamaIndex" } ] },
+    "writing": { "title": "Technical Writing & Articles ✍️", "items": [ { "text": "Tree-of-Thought for Enterprise", "url": "#", "icon": "treeOfThought" }, { "text": "Secure Memory for Finance Bots", "url": "#", "icon": "vectorDb" } ] },
+    "speaking": { "title": "Conference Talks & Panels 🎤", "items": [ { "text": "AI Engineer Summit 2025", "url": "#", "icon": "aiEngineerSummit" }, { "text": "Google Cloud Next '25", "url": "#", "icon": "googleCloudNext" } ] }
+  },
+  "logoUrls": {
+    "github": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", "emailIcon": "https://cdn-icons-png.flaticon.com/512/732/732200.png", "linkedinIcon": "https://cdn-icons-png.flaticon.com/512/174/174857.png", "crewAi": "https://raw.githubusercontent.com/joaomdmoura/crewAI/main/docs/crew_only_logo.png", "langchain": "https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/brand/wordmark-blue.png", "llamaIndex": "https://raw.githubusercontent.com/run-llama/llama_index/main/docs/_static/llama_logo.png", "dialogflow": "https://www.gstatic.com/devrel-devsite/prod/v84e6f5a61298bbae5bb110c196e8349d4c2f4f7bf69c8bcad/b0c37ae3f75e8c39/google-cloud-dialogflow-logo.svg", "vertexAi": "https://www.gstatic.com/devrel-devsite/prod/v84e6f5a61298bbae5bb110c196e8349d4c2f4f7bf69c8bcad/8f1f9c2f22af55a2/vertex-ai-logo.svg", "googleTpu": "https://www.gstatic.com/devrel-devsite/prod/v84e6f5a61298bbae5bb110c196e8349d4c2f4f7bf69c8bcad/5a44e6a2a1bc26d2/cloud-tpu-icon.svg", "bigQuery": "https://www.gstatic.com/devrel-devsite/prod/v84e6f5a61298bbae5bb110c196e8349d4c2f4f7bf69c8bcad/2e2e69e4270c36a2/bigquery-icon.svg", "googleDistributedCloud": "https://www.svgrepo.com/show/440552/cloud-google.svg", "googleCloudNext": "https://cloud.google.com/next/static/images/next_2024_logo_color.svg", "reactArch": "https://www.svgrepo.com/show/528343/thinking-ai.svg", "treeOfThought": "https://www.promptingguide.ai/img/tot.png", "plannerExecutor": "https://www.svgrepo.com/show/493409/workflow.svg", "dagAgents": "https://www.svgrepo.com/show/493407/diagram.svg", "episodicSemanticMemory": "https://www.svgrepo.com/show/472492/memory.svg", "contextWindowCompression": "https://www.svgrepo.com/show/532320/compress.svg", "forgettingAging": "https://www.svgrepo.com/show/493541/forget.svg", "apiIntegration": "https://www.svgrepo.com/show/472658/api-integration-connection.svg", "nativeFunctionCalling": "https://www.svgrepo.com/show/533045/function.svg", "customToolDefinition": "https://www.svgrepo.com/show/533159/settings.svg", "errorRateHandling": "https://www.svgrepo.com/show/532369/error.svg", "openClosedModel": "https://www.svgrepo.com/show/532279/model.svg", "promptInjectionDefense": "https://www.svgrepo.com/show/532662/firewall.svg", "toolSandboxing": "https://www.svgrepo.com/show/362049/sandboxing-solid.svg", "dataPrivacyRedaction": "https://www.svgrepo.com/show/532360/privacy-protection.svg", "biasToxicityGuardrails": "https://www.svgrepo.com/show/532289/guardrail.svg", "langSmith": "https://avatars.githubusercontent.com/u/140632363?s=280&v=4", "helicone": "https://avatars.githubusercontent.com/u/98132913?s=200&v=4", "langfuse": "https://langfuse.com/images/langfuse-logo-blue.png", "deepEval": "https://avatars.githubusercontent.com/u/143167479?s=280&v=4", "ragas": "https://ragas.io/logo.png", "unitIntegrationTesting": "https://www.svgrepo.com/show/472658/integration-testing.svg", "llmAsJudge": "https://www.svgrepo.com/show/472093/justice.svg", "clientGoogle": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg", "clientAmazon": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg", "clientMicrosoft": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg", "marketData": "https://eodhd.com/assets/img/logo.png", "aiEngineerSummit": "https://images.lumacdn.com/event-covers/z2/16895311-37dc-4bee-8c46-13657a79e623", "vectorDb": "https://www.zettascale.com/wp-content/uploads/2023/03/vector-database-logo.png", "multilingualLlms": "https://www.svgrepo.com/show/400030/multilingual.svg", "humanInLoop": "https://www.svgrepo.com/show/475960/human-feedback.svg", "noCode": "https://www.svgrepo.com/show/452113/mouse.svg", "lowCode": "https://www.svgrepo.com/show/493408/low-code-development-platform.svg", "python": "https://www.svgrepo.com/show/452091/python.svg", "marketing": "https://www.svgrepo.com/show/521741/marketing.svg"
+  },
+  "emojiFallbacks": {
+    "github": "👨‍💻", "linkedinIcon": "💼", "emailIcon": "📧", "crewAi": "🤖", "langchain": "⛓️", "llamaIndex": "🦙", "dialogflow": "💬", "vertexAi": "🧠", "googleTpu": "⚡️", "bigQuery": "📊", "googleDistributedCloud": "☁️", "googleCloudNext": "🗓️", "reactArch": "🤔", "treeOfThought": "🌳", "plannerExecutor": "⚙️", "dagAgents": "🔗", "episodicSemanticMemory": "💾", "contextWindowCompression": "📦", "forgettingAging": "⏳", "apiIntegration": "🔌", "nativeFunctionCalling": "📞", "customToolDefinition": "🛠️", "errorRateHandling": "⚠️", "openClosedModel": "👐", "promptInjectionDefense": "🛡️", "toolSandboxing": "🏖️", "dataPrivacyRedaction": "🤫", "biasToxicityGuardrails": "🚧", "langSmith": "🛠️", "helicone": "🌀", "langfuse": "💡", "deepEval": "📝", "ragas": "📈", "unitIntegrationTesting": "✅", "llmAsJudge": "⚖️", "clientGoogle": "🏢", "clientAmazon": "🏢", "clientMicrosoft": "🏢", "marketData": "💹", "aiEngineerSummit": "🏆", "vectorDb": "🔢", "multilingualLlms": "🌍", "humanInLoop": "🙋", "noCode": "🖱️", "lowCode": "🧩", "python": "🐍", "marketing": "📈", "default": "▫️"
+  },
+  "footerText": "Architecting the future of autonomous intelligence. ✨"
+}
